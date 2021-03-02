@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Lato:ital,wght@0,300;1,300&family=Montserrat&display=swap');
+
+body {
+    margin: 30px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.certificates {
+    background-color: #306085;
+    color: white;
+}
+
+h3 {
+    font-family: 'Montserrat';
+}
+
+.certificates-text-bottom {
+    font-style: italic;
+}
+
+.certificates-content,
+.certificates-images {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.certificates-content {
+    width: 55%;
+    padding: 25px 50px;
+}
+
+.certificates-content::before {
+
+    content: '';
+    background-image: url("./images/dots.png");
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    /* display: inline-block;  */
+    position: absolute;
+    left: 1;
+    margin-left: 50px;
+    margin-top: 235px;
+}
+
+.certificates-images {
+    width: 30%;
+    padding: 25px;
+}
+
+.image:nth-child(2)::after {
+    content: '';
+    background-image: url("./images/arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: -180px;
+    margin-top: 20px;
+}
+
+.image {
+    display: inline-block;
+    width: 40%;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
