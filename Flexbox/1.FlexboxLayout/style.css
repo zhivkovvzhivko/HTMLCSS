@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    background: #EEEEEE;
+    margin: 0px;
+    padding: 50px;
+    flex-wrap: wrap;
+
+}
+
+body > * {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 5px 6px 13px 0px rgba(0,0,0,0.71);
+}
+
+header {
+    flex-basis: 100%;
+}
+
+main, aside {
+    min-height: 200px;
+}
+
+main {
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+
+aside {
+    flex-grow: 1;
+}
+
+footer {
+    flex-basis: 100%;
+}

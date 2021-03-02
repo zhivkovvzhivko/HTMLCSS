@@ -1,0 +1,77 @@
+/* 
+
+body {
+    margin: 0px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+article {
+    display: flex;
+    flex-basis: 15em;
+    overflow: hidden;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 5px 6px 13px 0px rgba(0,0,0,0.71);
+}
+
+.big {
+    flex-grow: 2;
+} 
+
+*/
+
+/*  Sesond way  */
+
+
+body {
+    margin: 0px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+article {
+    display: flex;
+    flex-basis: 12em;
+    overflow: hidden;
+    padding: 10px;
+}
+
+img {
+    flex-basis: 30%; /* Remove it! It does not work as aspacted*/
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 5px 6px 13px 0px rgba(0,0,0,0.71);
+-webkit-box-shadow: 5px 6px 13px 0px rgba(0,0,0,0.71);
+-moz-box-shadow: 5px 6px 13px 0px rgba(0,0,0,0.71);
+}
+
+.big {
+    flex-grow: 1;
+}
+
+
+
+.zoom:hover {
+    transform: scale(1.5); 
+    /* flex-grow: 4; */
+}

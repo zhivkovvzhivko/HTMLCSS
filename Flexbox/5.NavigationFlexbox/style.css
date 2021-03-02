@@ -1,0 +1,19 @@
+body {
+    margin: 50px;
+}
+
+header {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    /* justify-content: space-between; */
+    margin: 10px;
+}

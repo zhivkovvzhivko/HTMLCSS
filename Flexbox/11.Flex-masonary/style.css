@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    background: #eee;
+    padding: 50px;
+}
+
+.section-title {
+    width: 80%;
+    margin: 30px auto;
+    padding-left: 30px;
+}
+
+.layout-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 5px 6px 13px 0px rgba(0,0,0,0.71);
+    border-radius: 12px;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    align-self: center;
+}
+
+.card > p {
+    padding: 0 12px;
+}
+
+p:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+.card footer {
+    padding: 12px;
+    border-top: 1px solid lightgrey;
+}
+
+.layout-mansonry {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.layout-mansonry .col {
+    margin: 10px;
+}
+
+.layout-mansonry .col .card {
+    margin: 20px auto;
+}
