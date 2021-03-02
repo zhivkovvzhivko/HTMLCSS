@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    background: #eeeeee;
+    font-family: Georgia, serif;
+}
+
+.card {
+    max-width: 400px;
+    margin: 120px auto;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.img-wrapper img {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.text-wrapper {
+    padding: 30px;
+}
+
+button {    
+    background: green;
+    color: white;
+    padding: 12px 20px;
+    margin-left: 65%;
+    margin-bottom: 30px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
