@@ -1,0 +1,29 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.navigation {
+    border-bottom: 2px solid black;
+}
+
+.navigation .navigation-title,
+.navigation nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigation a {
+    color: #19A41F;
+    text-decoration: none;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}

@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    color: #EEEEEE;
+    margin: 0;
+}
+
+
+.gallery {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.gallery li {
+    border: 8px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    /* height: 100%; */
+}

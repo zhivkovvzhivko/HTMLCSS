@@ -1,0 +1,41 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 50px auto ;
+    background-color: rgb(238, 238, 238);
+}
+
+section li {
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+main , aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main{
+    width: 65%;
+}
+
+aside {
+    width: 30%;
+    margin: 0 0 0 50px;
+    padding: 0px;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+aside li {
+    list-style-type: square;
+    margin: 10px;
+}
