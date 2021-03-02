@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+.button-wrapper {
+    margin: 50px;
+}
+
+.button-wrapper article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-green {
+    background-color: #008000;
+}
+
+.btn-yellow {
+    background-color: #FF8C00;
+}

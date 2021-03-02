@@ -1,0 +1,14 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+/* selects class list */
+.lists {
+    margin: 50px;
+    font-size: 16px;
+}
+
+/* selects all ul and ol elments */
+ul ol {
+    line-height: 1.5px;
+}

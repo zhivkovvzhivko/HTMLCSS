@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500;700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Lato&display=swap');
+
+h1, h2 {
+    font-family: Cormorant;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 5px;;
+}
+
+body {
+    font-family: Lato;
+    line-height: 1.5;
+}
+
+.container {
+    padding: 60px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.second-level, .third-level {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.last-bullet {
+    list-style: none;
+}
+
+.digits {
+    list-style-type: decimal;
+}

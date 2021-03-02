@@ -1,0 +1,12 @@
+article {
+    background-color: rgb(51, 102, 153);
+    border-radius: 1em;
+    color: white;
+    font-family: Helvetica;
+    margin: 50px;
+    padding: 30px;
+}
+
+h2 {
+    /* padding: 30px */
+}
